@@ -1,0 +1,14 @@
+#h1
+header
+  input(placeholder="", onfocus="this.placeholder = ''", onblur="this.placeholder = ''")
+  .circle#a s
+  .circle#b i
+  .circle#c l
+  .circle#d m
+.flexbox
+  - for (var x = 0; x < 30; x++)
+    //= a = random().toString()
+    .container
+      img(src = "http://placehold.it/400x400")
+  //.container
+    //iframe(src="https://clara.io/embed/d6e1f3fe-3dbb-404d-9f00-a62e50b2ad54?renderer=vray&timeline=true&autoplay=false&bgColor=0xffffff&tools=false",width="400", height="300",allowfullscreen)

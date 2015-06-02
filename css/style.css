@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin,cyrillic);
+* {
+  box-sizing: border-box;
+}
+
+.flexbox {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-content: space-around;
+      -ms-flex-line-pack: distribute;
+          align-content: space-around;
+}
+
+.img {
+  vertical-align: top;
+  border-radius: 20px;
+}
+
+.container {
+  -webkit-transform: scale(0.975);
+      -ms-transform: scale(0.975);
+          transform: scale(0.975);
+  padding: 10px 10px 10px 10px;
+  background: white;
+  background-clip: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  text-align: center;
+  border-radius: 20px;
+}
+
+html {
+  min-width: 100%;
+  min-height: 100%;
+  font-family: 'Ubuntu Mono';
+}
+html body {
+  min-width: 100%;
+  min-height: 100%;
+  background: transparent;
+}
+html header {
+  width: 100vw;
+  height: 20vh;
+  position: fixed;
+  background: peachpuff;
+  z-index: 1000;
+  text-align: center;
+}
+html header input {
+  background: none;
+  font-size: 3em;
+  color: chocolate;
+  padding: 10px;
+  border: 0;
+  text-align: center;
+  outline: 0;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+}
+
+#a {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: sandybrown;
+}
+
+#b {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  color: darksalmon;
+}
+
+#c {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  color: tomato;
+}
+
+#d {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: lightpink;
+}
+
+::-webkit-input-placeholder {
+  color: 333;
+}
+
+::-moz-placeholder {
+  color: 333;
+}
+
+:-moz-placeholder {
+  color: 333;
+}
+
+:-ms-input-placeholder {
+  color: 333;
+}
